@@ -1,25 +1,32 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
-import home_img from './components/images/home.png';
 
+import Home from './components/Home';
+import ConnectBank from './components/ConnectBank';
+import LoginBank from './components/LoginBank';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <div id="viewport">
-        <header className="App-header">
-          <Header />
-        </header>
-        <main>
-          <p>Connect to your bank, get finance recommendations and learn about the latest trends in the market</p>
-          <img src={home_img} alt="Banca Finance" /><br />
-          <button>Get Started</button>
-        </main>
+    <Router>
+      <div className="App">
+        <div id="viewport">
+          <header className="App-header">
+            <Header />
+          </header>
+          <main>
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/connect-bank" component={ConnectBank} />
+              <Route path="/login-bank" component={LoginBank} />
+            </Switch>
+          </main>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </Router>
   );
 }
 
