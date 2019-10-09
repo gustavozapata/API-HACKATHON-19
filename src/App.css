@@ -60,3 +60,41 @@ main button:hover {
 .Footer p {
   color: white;
 }
+
+.chooseBank {
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+.chooseBank div {
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 25px;
+}
+.chooseBank div:hover {
+  background-color: rgb(218, 239, 255);
+}
+.chooseBank img {
+  width: 220px;
+  vertical-align: middle;
+}
+.chooseBank h3 {
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-top: 40px;
+}
+button.inactive {
+  background-color: #3C0276;
+  pointer-events: none;
+}
+button.inactive:hover {
+  background-color: #3C0276;
+  border: none;
+  color: #3E0C99;
+}
+div.active {
+  background-color: rgb(218, 239, 255);
+}
