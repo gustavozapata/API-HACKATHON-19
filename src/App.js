@@ -14,7 +14,7 @@ function App() {
         </header>
         <main>
           <p>Connect to your bank, get finance recommendations and learn about the latest trends in the market</p>
-          <img src={home_img} /><br />
+          <img src={home_img} alt="Banca Finance" /><br />
           <button>Get Started</button>
         </main>
       </div>
