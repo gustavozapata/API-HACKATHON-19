@@ -19,10 +19,10 @@ function App() {
           </header>
           <main>
             <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/connect-bank" component={ConnectBank} />
-              <Route path="/login-bank" component={LoginBank} />
-              <Route path="/dashboard" component={Dashboard} />
+              <Route exact path="/api-hackathon-19" component={Home} />
+              <Route path="/api-hackathon-19/connect-bank" component={ConnectBank} />
+              <Route path="/api-hackathon-19/login-bank" component={LoginBank} />
+              <Route path="/api-hackathon-19/dashboard" component={Dashboard} />
             </Switch>
           </main>
         </div>
