@@ -8,7 +8,7 @@
 }
 
 #viewport {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 main {
@@ -30,7 +30,7 @@ main button {
   padding: 10px 25px;
   background-color: white;
   color: #3E0C99;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 35px;
   font-size: 1.3em;
   font-weight: 700;
@@ -114,6 +114,7 @@ div.active {
   padding: 5px 2px 5px 5px;
   font-size: 1.2em;
   margin: 15px auto;
+  font-weight: 300;
   border: 1px solid #3E0C99;
   border-radius: 5px;
 }
