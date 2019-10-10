@@ -21,7 +21,7 @@ function App() {
             <Switch>
               <Route exact path="/api-hackathon-19" component={Home} />
               <Route path="/api-hackathon-19/connect-bank" component={ConnectBank} />
-              <Route path="/api-hackathon-19/login-bank" component={LoginBank} />
+              {/* <Route path="/api-hackathon-19/login-bank" component={LoginBank} /> */}
               <Route path="/api-hackathon-19/dashboard" component={Dashboard} />
             </Switch>
           </main>

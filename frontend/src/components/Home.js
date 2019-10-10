@@ -7,7 +7,7 @@ export default function Home() {
         <div className="Home">
             <p>Connect to your bank, get finance recommendations and learn about the latest trends in the market</p>
             <img src={home_img} alt="Banca Finance" /><br />
-            <Link to="/connect-bank">
+            <Link to="/api-hackathon-19/connect-bank">
                 <button>Get Started</button>
             </Link>
         </div>

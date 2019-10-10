@@ -117,7 +117,7 @@ export class Dashboard extends Component {
     render() {
         return (
             <div>
-                <Link to='/' style={{ color: 'white', float: 'right', fontSize: '.9em' }}>
+                <Link to='/api-hackathon-19' style={{ color: 'white', float: 'right', fontSize: '.9em' }}>
                     Log out
                 </Link>
                 <p style={{ fontWeight: 'bold' }}>Welcome <span style={{ color: '#18C4ED' }}>{this.state.user}</span></p>

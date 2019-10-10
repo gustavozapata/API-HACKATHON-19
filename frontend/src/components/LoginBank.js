@@ -21,7 +21,7 @@ export class LoginBank extends Component {
                         <input placeholder="Password" type="password" name="password" value='apiworld' /><br />
                     </form>
                 </div>
-                <Link to="/dashboard">
+                <Link to="/api-hackathon-19/dashboard">
                     <button>Login</button>
                 </Link>
             </div>
