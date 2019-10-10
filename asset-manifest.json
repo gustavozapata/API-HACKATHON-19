@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/api-hackathon-19/static/css/main.996f44bd.chunk.css",
+    "main.js": "/api-hackathon-19/static/js/main.41225d01.chunk.js",
+    "main.js.map": "/api-hackathon-19/static/js/main.41225d01.chunk.js.map",
+    "runtime-main.js": "/api-hackathon-19/static/js/runtime-main.d1a5ec0a.js",
+    "runtime-main.js.map": "/api-hackathon-19/static/js/runtime-main.d1a5ec0a.js.map",
+    "static/js/2.cec5eb69.chunk.js": "/api-hackathon-19/static/js/2.cec5eb69.chunk.js",
+    "static/js/2.cec5eb69.chunk.js.map": "/api-hackathon-19/static/js/2.cec5eb69.chunk.js.map",
+    "index.html": "/api-hackathon-19/index.html",
+    "precache-manifest.028845c460b2647991802a85093c8aab.js": "/api-hackathon-19/precache-manifest.028845c460b2647991802a85093c8aab.js",
+    "service-worker.js": "/api-hackathon-19/service-worker.js",
+    "static/css/main.996f44bd.chunk.css.map": "/api-hackathon-19/static/css/main.996f44bd.chunk.css.map",
+    "static/media/capital.png": "/api-hackathon-19/static/media/capital.74967fcf.png",
+    "static/media/chase.png": "/api-hackathon-19/static/media/chase.1200262f.png",
+    "static/media/fargo.png": "/api-hackathon-19/static/media/fargo.8a028e8d.png",
+    "static/media/home.png": "/api-hackathon-19/static/media/home.3fcb2f7c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1a5ec0a.js",
+    "static/js/2.cec5eb69.chunk.js",
+    "static/css/main.996f44bd.chunk.css",
+    "static/js/main.41225d01.chunk.js"
+  ]
+}
