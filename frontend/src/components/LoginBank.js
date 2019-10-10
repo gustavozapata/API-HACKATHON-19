@@ -17,7 +17,7 @@ export class LoginBank extends Component {
                 <div className="login"><br />
                     <img src={require(`./images/${this.props.bankSelected}.png`)} alt="Bank Logo" style={{ width: '150px' }} />
                     <form>
-                        <input placeholder="Username" type="text" name="username" value='gustavozapata' /><br />
+                        <input placeholder="Username" type="text" name="username" value={this.props.user} /><br />
                         <input placeholder="Password" type="password" name="password" value='apiworld' /><br />
                     </form>
                 </div>
