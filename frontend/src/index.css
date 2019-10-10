@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  background: linear-gradient(#3E0C99 0, #3E0C99 33%, #3C0276 66%, #3C0276 100%);
+}
