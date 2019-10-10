@@ -17,7 +17,7 @@ export class Dashboard extends Component {
     }
 
     componentDidMount() {
-        this.fetchUserData();
+        // this.fetchUserData();
         this.getUserData();
     }
 
@@ -46,6 +46,62 @@ export class Dashboard extends Component {
     }
 
     fetchUserData = () => {
+        // const token_str = '1fb5853d-2f0a-478f-b83d-94b3c8561349_9732a9ea-2191-4180-a657-c5a2c0d19046'
+        const token_str = '1fb5853d-2f0a-478f-b83d-94b3c8561349_9732a9ea-2191-4180-a657-c5a2c0d19046'
+
+        axios
+            .post(
+                'https://dev-api.evenfinancial.com/originator/rateTables/',
+                {
+                    productTypes: ['credit_card'],
+                    personalInformation: {
+                        firstName: 'John',
+                        lastName: 'Doe',
+                        email: 'john@example.com',
+                        city: 'New York',
+                        state: 'NY',
+                        primaryPhone: '2125556789',
+                        address1: '45 West 21st Street',
+                        address2: '5th Floor',
+                        zipcode: '10010',
+                        dateOfBirth: '1993-10-09'
+                    },
+                    creditCardInformation: {
+                        allowAnnualFee: true,
+                        cardBenefits: ['travel_incentives']
+                    },
+                    creditInformation: {
+                        providedCreditRating: 'excellent',
+                        providedNumericCreditScore: 750
+                    },
+                    financialInformation: {
+                        employmentStatus: 'employed',
+                        employmentPayFrequency: 'weekly',
+                        annualIncome: 120000
+                    },
+                    legalInformation: {
+                        consentsToFcra: true,
+                        consentsToTcpa: true,
+                        tcpaLanguage:
+                            'I agree to be contacted by Even Financial and its partners at the telephone number(s) I have provided above to explore personal loan offers, including contact through automatic dialing systems, artificial or pre-recorded voice messaging, or text message. I understand my consent is not required as a condition to purchasing any goods or services from anyone.'
+                    },
+                    clientTags: {
+                        hello: ['world', 'there'],
+                        something: ['else']
+                    }
+                },
+                {
+                    headers: {
+                        Authorization: `Bearer ${token_str}`
+                    }
+                }
+            )
+            .then(res => console.log(res))
+            .catch(err => console.error(err))
+    }
+
+
+    fetchUserData2 = () => {
         const gzApi = `https://gustavozapata.me/api/get-vendors.php`
 
         axios.get(gzApi)
