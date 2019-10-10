@@ -8,8 +8,6 @@ cx-Oracle==7.2.2
 dateparser==0.7.2
 defusedxml==0.6.0
 Django==2.2.5
-django-auth-ldap==2.0.0
-django-auth-ldap3-ad==1.6.30
 django-cors-headers==3.1.0
 django-extensions==2.2.1
 djangorestframework==3.10.3
@@ -18,7 +16,6 @@ et-xmlfile==1.0.1
 idna==2.8
 isodate==0.6.0
 jdcal==1.4.1
-ldap3==2.6.1
 lxml==4.4.1
 moment==0.8.2
 mysqlclient==1.4.4
