@@ -4,6 +4,7 @@ import LoginBank from './LoginBank'
 
 class ConnectBank extends Component {
     state = {
+        user: 'gustavozapata',
         banks: [
             {
                 id: 1,
@@ -57,7 +58,7 @@ class ConnectBank extends Component {
             )
         } else {
             return (
-                <LoginBank banks={this.state.banks} bankSelected={this.state.bankSelected} toggleSelect={this.toggleSelect} />
+                <LoginBank user={this.state.user} banks={this.state.banks} bankSelected={this.state.bankSelected} toggleSelect={this.toggleSelect} />
             )
         }
     }

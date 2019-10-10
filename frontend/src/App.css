@@ -118,3 +118,48 @@ div.active {
   border: 1px solid #3E0C99;
   border-radius: 5px;
 }
+
+.bar-container {
+  /* border: 1px solid green; */
+  text-align: center
+}
+.bar-container h2 {
+  color: white;
+  font-size: 1.2em;
+}
+.elBar {
+  color: white;
+  /* border: 1px solid white; */
+  text-align: left;
+  width: 600px;
+  margin: 0 auto;
+}
+.lasBars p {
+  margin: 5px 0;
+}
+.bar {
+  width: 500px;
+  height: 18px;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: .85em;
+  /* border-radius: 20px; */
+  text-shadow: 1px 1px 1px black;
+}
+.bar-1 {
+  background-color: #0BE0BF;
+}
+.bar-2 {
+  background-color: #AFE00B;
+}
+.bar-3 {
+  background-color: #E0B70B;
+}
+.bar-4 {
+  background-color: #E06D0B;
+}
+.bar-5 {
+  background-color: rgb(224, 11, 192);
+}
