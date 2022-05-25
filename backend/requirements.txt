@@ -24,7 +24,7 @@ plaid-python==3.4.0
 psycopg2-binary==2.8.3
 pyasn1==0.4.7
 pyasn1-modules==0.2.6
-PyJWT==1.7.1
+PyJWT==2.4.0
 python-dateutil==2.8.0
 python-ldap==3.4.0
 pytz==2019.2
